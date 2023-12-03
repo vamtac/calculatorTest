@@ -87,3 +87,4 @@ npm run build
 Released under the MIT [License](./LICENSE)  
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FVue-Boilerplates%2Fvue-typescript-boilerplate.svg?type=small)](https://app.fossa.com/api/projects/git%2Bgithub.com%2FVue-Boilerplates%2Fvue-typescript-boilerplate.svg?type=small)
+# calculator

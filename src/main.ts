@@ -1,15 +1,12 @@
-import Vue from "vue";
-import App from "@/App.vue";
-import "@/registerServiceWorker";
-import router from "@/router";
-import store from "@/store";
-import "@/assets/css/styles.scss";
-Vue.prototype.$mapFields = Vue;
+// main.ts
+import Vue from 'vue';
+import App from './App.vue';
+import store from './store/calculator';
 
 Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  store,
-  render: (h) => h(App),
-}).$mount("#app");
+  el: '#app',
+  store, 
+  render: h => h(App),
+});
